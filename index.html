@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musengah Nyondo - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">MN</a>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="gradient-text">Musengah Nyondo</h1>
+            <p class="subtitle">Software Engineer | Data Analyst | AI & Machine Learning Enthusiast</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-alt">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card">
+                <p>Dedicated and innovative Computer Science graduate with a specialization in Software Engineering. 
+                I'm passionate about creating efficient, scalable solutions and staying at the forefront of technology. 
+                Currently seeking opportunities to apply my expertise in software development and problem-solving 
+                to contribute to impactful projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="glass-card">
+                    <h3 class="card-title">Programming Languages</h3>
+                    <div class="tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">R</span>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <h3 class="card-title">Frameworks & Tools</h3>
+                    <div class="tags">
+                        <span class="tag">ASP.NET</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">Flask</span>
+                        <span class="tag">React</span>
+                    </div>
+                </div>
+                <div class="glass-card">
+                    <h3 class="card-title">Development Practices</h3>
+                    <div class="tags">
+                        <span class="tag">Agile Methodology</span>
+                        <span class="tag">Test-Driven Development</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">UML</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section-alt">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="glass-card experience-card">
+                    <h3 class="card-title">Web Developer Intern</h3>
+                    <p class="experience-meta">Gladtidings Software.LTD | February, 2024 - December, 2024</p>
+                    <ul class="experience-list">
+                        <li>Participated in data entry for the main company system</li>
+                        <li>Developed Python, Java, and C# scripts to preprocess and analyze large datasets, connect, and turn into a database</li>
+                        <li>Lead a team in developing a prototype system</li>
+                    </ul>
+                </div>
+                <div class="glass-card experience-card">
+                    <h3 class="card-title">Node.JS Intern</h3>
+                    <p class="experience-meta">InternCareer | 27 June, 2024 - 27 July, 2024</p>
+                    <ul class="experience-list">
+                        <li>Created restful APIs that handle CRUD operations</li>
+                        <li>Tested created APIs using Postman</li>
+                    </ul>
+                </div>
+                <div class="glass-card experience-card">
+                    <h3 class="card-title">SQL Intern</h3>
+                    <p class="experience-meta">InternCareer | 11 January, 2024 - 11 Februarry, 2024</p>
+                    <ul class="experience-list">
+                        <li>Analyzed a dataset then created a database to hold the data.</li>
+                        <li>Developed Python scripts to preprocess and analyze large datasets, connect, and turn into a database</li>
+                        <li>Optimized database for better query retrieval and removing of repeating data</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="glass-card project-card">
+                    <h3 class="card-title">Campus Navigation and information system</h3>
+                    <p class="project-description">
+                        Developed a campus navigation and information system as my final year project
+                    </p>
+                    <div class="project-tech">
+                        <h4>Technologies Used:</h4>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">OpenStreetMap</span>
+                            <span class="tag">Transformer</span>
+                            <span class="tag">Leaflet</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Campus map</li>
+                            <li>FAQ chatbot</li>
+                            <li>Proximity calculation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="glass-card project-card">
+                    <h3 class="card-title">Weather Dashboard</h3>
+                    <p class="project-description">
+                        Created a simple weather Dashboard which can provide the expected weather for the day and next three
+                    </p>
+                    <div class="project-tech">
+                        <h4>Technologies Used:</h4>
+                        <div class="tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express</span>
+                            <span class="tag">Axios</span>
+                            <span class="tag">OpenWeatherMap</span>
+                        </div>
+                    </div>
+                    <div class="project-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Weather forecasting in any location</li>
+                            <li>Three (3) days weather forcasting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-alt">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="glass-card contact-card">
+                <div class="contact-grid">
+                    <div class="contact-links">
+                        <a href="mailto:nyondomusengah@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>nyondomusengah@gmail.com</span>
+                        </a>
+                        <a href="tel:+260978346590" class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+260 978 346 590</span>
+                        </a>
+                        <a href="https://linkedin.com/in/musengah-nyondo-a18090281" class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                        </a>
+                        <a href="https://github.com/johndoe" class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub Profile</span>
+                        </a>
+                    </div>
+                    <div class="contact-info">
+                        <p>I'm currently open to new opportunities and collaborations. Feel free to reach out!</p>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Based in: Lusaka, Zambia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Musengah Nyondo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
