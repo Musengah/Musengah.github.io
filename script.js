@@ -52,3 +52,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+document.querySelector('.btn-resume').addEventListener('click', function() {
+    console.log('Resume downloaded');
+});
