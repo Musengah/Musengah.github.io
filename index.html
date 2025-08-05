@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="bg-elements">
         <div class="geometric-shape shape-1"></div>
@@ -24,10 +26,16 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li> <!-- Add this line -->
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
+                <button class="hamburger" aria-label="Menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
             </div>
         </div>
     </header>
@@ -38,24 +46,33 @@
                 <div class="hero-content">
                     <h1><span class="text-gradient">Musengah</span><br>Nyondo</h1>
                     <p class="subtitle">Software Engineer | Data Analyst | AI & ML Enthusiast</p>
-                    <p>Creating efficient, scalable solutions and staying at the forefront of technology. Based in Kasama, Zambia.</p>
+                    <p>Creating efficient, scalable solutions and staying at the forefront of technology. Based in
+                        Lusaka, Zambia.</p>
                     <div class="cta-buttons">
                         <a href="#contact" class="btn btn-primary">Get In Touch</a>
                         <a href="#projects" class="btn btn-outline">View Projects</a>
+                        <a href="Resume.pdf" download="Resume.pdf" class="btn btn-resume">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
                     </div>
                 </div>
                 <div class="hero-visual">
                     <div class="code-block">
-                        <div class="code-line"><span class="keyword">class</span> <span class="function">SoftwareEngineer</span>:</div>
-                        <div class="code-line">    <span class="keyword">def</span> <span class="function">__init__</span>(self):</div>
-                        <div class="code-line">        self.name = <span class="string">"Musengah Nyondo"</span></div>
-                        <div class="code-line">        self.role = <span class="string">"Software Engineer"</span></div>
-                        <div class="code-line">        self.location = <span class="string">"Lusaka, Zambia"</span></div>
-                        <div class="code-line">        self.skills = [<span class="string">"Python"</span>, <span class="string">"JavaScript"</span>, <span class="string">"SQL"</span>]</div>
-                        <div class="code-line">    </div>
-                        <div class="code-line">    <span class="keyword">def</span> <span class="function">build_amazing_things</span>(self):</div>
-                        <div class="code-line">        <span class="keyword">return</span> <span class="string">"Let's collaborate!"</span></div>
-                        <div class="code-line">    </div>
+                        <div class="code-line"><span class="keyword">class</span> <span
+                                class="function">SoftwareEngineer</span>:</div>
+                        <div class="code-line"> <span class="keyword">def</span> <span
+                                class="function">__init__</span>(self):</div>
+                        <div class="code-line"> self.name = <span class="string">"Musengah Nyondo"</span></div>
+                        <div class="code-line"> self.role = <span class="string">"Software Engineer"</span></div>
+                        <div class="code-line"> self.location = <span class="string">"Lusaka, Zambia"</span></div>
+                        <div class="code-line"> self.skills = [<span class="string">"Python"</span>, <span
+                                class="string">"JavaScript"</span>, <span class="string">"SQL"</span>]</div>
+                        <div class="code-line"> </div>
+                        <div class="code-line"> <span class="keyword">def</span> <span
+                                class="function">build_amazing_things</span>(self):</div>
+                        <div class="code-line"> <span class="keyword">return</span> <span class="string">"Let's
+                                collaborate!"</span></div>
+                        <div class="code-line"> </div>
                         <div class="code-line"><span class="comment"># Always learning, always growing</span></div>
                     </div>
                 </div>
@@ -71,9 +88,14 @@
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm a dedicated and innovative Computer Science graduate with a specialization in Software Engineering. My journey in technology is driven by a passion for creating efficient, scalable solutions that make a real difference.</p>
-                    <p>Based in Lusaka, Zambia, I bring a unique perspective to software development, combining strong technical skills with creative problem-solving abilities. I'm particularly fascinated by AI & Machine Learning and how these technologies can transform industries.</p>
-                    <p>Currently seeking opportunities to apply my expertise in software development and contribute to meaningful projects that push the boundaries of what's possible.</p>
+                    <p>I'm a dedicated and innovative Computer Science graduate with a specialization in Software
+                        Engineering. My journey in technology is driven by a passion for creating efficient, scalable
+                        solutions that make a real difference.</p>
+                    <p>Based in Lusaka, Zambia, I bring a unique perspective to software development, combining strong
+                        technical skills with creative problem-solving abilities. I'm particularly fascinated by AI &
+                        Machine Learning and how these technologies can transform industries.</p>
+                    <p>Currently seeking opportunities to apply my expertise in software development and contribute to
+                        meaningful projects that push the boundaries of what's possible.</p>
                 </div>
                 <div class="about-stats">
                     <div class="stat-item">
@@ -139,54 +161,197 @@
         </div>
     </section>
 
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-gradient">Experience</h2>
+                <p class="section-subtitle">Where I've worked and contributed</p>
+            </div>
+            <div class="experience-grid">
+                <!-- Experience Item 1 -->
+                <div class="experience-card animate-on-scroll">
+                    <div class="experience-header">
+                        <h3>Web Development Intern (Remote)</h3>
+                        <div class="experience-meta">
+                            <span class="company">Codeveda Technologies</span>
+                            <span class="date">August, 2025 - Present</span>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            <!--<li>Developed full-stack applications using Python and React</li>
+                            <li>Optimized database queries reducing API response time by 40%</li>
+                            <li>Mentored junior developers in agile workflows</li>-->
+                        </ul>
+                        <div class="experience-tech">
+                            <span class="tech-tag">Full-Stack development</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="experience-card animate-on-scroll">
+                    <div class="experience-header">
+                        <h3>Web Development Intern (Remote)</h3>
+                        <div class="experience-meta">
+                            <span class="company">CollegeTips.in</span>
+                            <span class="date">May, 2025 - June, 2025</span>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            <li>Developed web applications using HTML, CSS and JavaScript.</li>
+                            <li>Researched new technologies to improve existing web solutions.</li>
+                            <li>Built website content and designs using HTML and CSS.</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="experience-card animate-on-scroll">
+                    <div class="experience-header">
+                        <h3>Web Development Intern</h3>
+                        <div class="experience-meta">
+                            <span class="company">Gladtidings Software Ltd</span>
+                            <span class="date">February, 2024 - October, 2024</span>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            <li>Led a team in developing a robust system for company operations.</li>
+                            <li>Researched C# frameworks for case use.</li>
+                            <li>Performed data entry tasks for main company application to ensure accuracy.</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">ASP.NET</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">RESTful API</span>
+                            <span class="tech-tag">Data Entry</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 4 -->
+                <div class="experience-card animate-on-scroll">
+                    <div class="experience-header">
+                        <h3>Node.js Intern (Remote)</h3>
+                        <div class="experience-meta">
+                            <span class="company">InternCareer</span>
+                            <span class="date">June, 2024 - July, 2024</span>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            <li>Built RESTful APIs and implemented CRUD operations using Node.js and Postman.</li>
+                            <li>Used SQLite for backend data management.</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">RESTful API</span>
+                            <span class="tech-tag">Postman</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Item 5 -->
+                <div class="experience-card animate-on-scroll">
+                    <div class="experience-header">
+                        <h3>SQL Intern (Remote)</h3>
+                        <div class="experience-meta">
+                            <span class="company">InternCareer</span>
+                            <span class="date">January, 2024 - February, 2024</span>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <ul>
+                            <li>Converted CSV files into PostgreSQL databases for analysis using Python and NumPy.</li>
+                            <li>Performed , database analysis, normalization, and optimization.</li>
+                        </ul>
+                        <div class="experience-tech">
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NumPy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="projects" class="section">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-gradient">Featured Projects</h2>
-                <p class="section-subtitle">Some of my recent work</p>
+                <p class="section-subtitle">Selected work with measurable impact</p>
             </div>
+
             <div class="projects-grid">
-                <div class="project-card">
+                <!-- Project 1 -->
+                <div class="project-card animate-on-scroll">
                     <div class="project-header">
-                        <div class="project-icon">🗺️</div>
-                        <h3 class="project-title">Campus Navigation System</h3>
+                        <i class="fas fa-map-marked-alt project-icon"></i>
+                        <h3 class="project-title">Campus Navigation and Information System</h3>
                     </div>
                     <div class="project-content">
-                        <p class="project-description">A comprehensive navigation and information system developed as my final year project. Helps students and visitors navigate campus efficiently with real-time information and interactive maps.</p>
+                        <p class="project-description">
+                            <span class="highlight">Impact:</span> Reduced student and visitor navigation time by 30% at
+                            UNZA with
+                            real-time interactive maps, with information provided by a FAQ chatbot.
+                        </p>
+                        <div class="project-meta">
+                            <span class="project-type">Academic Project</span>
+                            <span class="project-date">2024</span>
+                        </div>
                         <div class="project-tech">
-                            <span class="tech-tag">Python</span>
                             <span class="tech-tag">HTML</span>
                             <span class="tech-tag">CSS</span>
                             <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Python</span>
                             <span class="tech-tag">Flask</span>
                             <span class="tech-tag">Leaflet</span>
                             <span class="tech-tag">OpenStreetMap</span>
                         </div>
-                        <!--<div class="project-links">
-                            <a href="#" class="project-link">View Project →</a>
-                            <a href="" class="project-link">GitHub →</a>
-                        </div>-->
                     </div>
                 </div>
-                <div class="project-card">
+
+                <!-- Project 2 -->
+                <div class="project-card animate-on-scroll">
                     <div class="project-header">
-                        <div class="project-icon">🌤️</div>
+                        <i class="fas fa-cloud-sun-rain project-icon"></i>
                         <h3 class="project-title">Weather Dashboard</h3>
                     </div>
                     <div class="project-content">
-                        <p class="project-description">A clean and intuitive weather dashboard that provides current weather conditions and 3-day forecasts. Features location-based weather data and responsive design.</p>
+                        <p class="project-description">
+                            <span class="highlight">Impact:</span> Served users with accurate 3-day
+                            forecasts via OpenWeatherMap API.
+                        </p>
+                        <div class="project-meta">
+                            <span class="project-type">Personal Project</span>
+                            <span class="project-date">2024</span>
+                        </div>
                         <div class="project-tech">
-                            <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">HTML</span>
                             <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">OpenWeatherMap</span>
+                            <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">API Integration</span>
                         </div>
-                        <!--<div class="project-links">
-                            <a href="#" class="project-link">View Project →</a>
-                            <a href="" class="project-link">GitHub →</a>
-                        </div>-->
                     </div>
                 </div>
             </div>
@@ -197,21 +362,37 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-gradient">Let's Connect</h2>
-                <p class="section-subtitle">Ready to collaborate on something amazing?</p>
+                <p class="section-subtitle">Reach out directly through these channels</p>
             </div>
-            <div class="contact-content">
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <h3>Get In Touch</h3>
-                        <p>I'm always interested in new opportunities and collaborations. Whether you have a project in mind or just want to chat about technology, feel free to reach out!</p>
-                        <div class="contact-item">
-                            <div class="contact-item-icon">📍</div>
-                            <div>
-                                <strong>Location</strong><br>
-                                Lusaka, Zambia
-                            </div>
-                        </div>
+            <div class="contact-links">
+                <!-- Email -->
+                <a href="mailto:nyondomusengah@gmail.com" class="contact-link">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>nyondomusengah@gmail.com</p>
                     </div>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com/in/musengah-nyondo-a18090281" target="_blank" class="contact-link">
+                    <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                    <div class="contact-details">
+                        <h3>LinkedIn</h3>
+                        <p>Musengah Nyondo</p>
+                    </div>
+                </a>
+
+                <!-- Mobile Number -->
+                <div class="contact-link" id="mobile-link">
+                    <div class="contact-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="contact-details">
+                        <h3>Mobile</h3>
+                        <p id="mobile-number">+260 97-834-6590</p>
+                    </div>
+                    <button class="copy-btn" onclick="copyMobileNumber()">
+                        <i class="far fa-copy"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -219,36 +400,19 @@
 
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Musengah Nyondo</h4>
-                    <p>Software Engineer specializing in creating efficient, scalable solutions with a passion for AI and Machine Learning.</p>
+            <div class="footer-simple">
+                <a href="#" class="logo">MN</a>
+                <div class="footer-links">
+                    <a href="#projects">Work</a>
+                    <a href="#contact">Contact</a>
+                    <a href="https://github.com/Musengah" target="_blank">GitHub</a>
                 </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul style="list-style: none;">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
-                    <ul style="list-style: none;">
-                        <li><a href="https://linkedin.com/in/musengah-nyondo-a18090281">LinkedIn</a></li>
-                        <li><a href="https://github.com/usengah">GitHub</a></li>
-                        <li><a href="mailto:nyondomusengah@gmail.com">Email</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; <span id="year"></span> Musengah Nyondo. All rights reserved.</p>
+                <p class="footer-copyright">&copy; <span id="year"></span> Musengah Nyondo</p>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
